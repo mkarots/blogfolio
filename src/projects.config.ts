@@ -43,6 +43,13 @@ export const projects = [
 		url: 'https://github.com/mkarots/spek',
 		language: 'Python',
 	},
+	{
+		slug: 'tinysh',
+		name: 'tinysh',
+		description: 'A tiny Unix shell in C, built from scratch in a blog series.',
+		url: 'https://github.com/mkarots/tinysh',
+		language: 'C',
+	},
 ] as const;
 
 export type ProjectSlug = typeof projects[number]['slug'];
